@@ -1,0 +1,11 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Team Task Manager Full-Stack Application",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "build": "npm run install-all && npm run build-frontend",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "build-frontend": "cd frontend && npm run build"
+  }
+}
